@@ -1,4 +1,5 @@
 import LandingBaner from '@/components/LandingBanner'
+import LandingRequisite from '@/components/LandingRequisite'
 import Head from 'next/head'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <main>
         <LandingBaner />
+        <LandingRequisite />
       </main>
     </>
   )

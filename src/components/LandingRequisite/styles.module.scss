@@ -1,0 +1,33 @@
+.c-requisite {
+  @apply py-10;
+
+  &__title {
+    @apply mb-2;
+
+    font-size: 32px;
+    line-height: 56px;
+  }
+
+  &__desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__content {
+    @apply flex flex-nowrap justify-between mt-6;
+
+    &--item {
+      @apply relative rounded-b-lg drop-shadow-md;
+
+      &__text {
+        @apply absolute bottom-0 text-white w-full rounded-b-lg;
+
+        background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0.7) 93.25%);
+        backdrop-filter: blur(8px);
+        padding: 16px 12px;
+        color: #2951A3;
+        font-size: 16px;
+      }
+    }
+  }
+}
