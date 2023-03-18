@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.c-container {
+  @apply m-auto lg:px-0 px-4;
+  @apply xl:max-w-screen-xl lg:max-w-screen-lg md:max-w-screen-lg sm:max-w-screen-md;
+}

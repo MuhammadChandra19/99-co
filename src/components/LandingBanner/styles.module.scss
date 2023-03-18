@@ -1,0 +1,24 @@
+.c-banner {
+  @apply relative h-80 w-full bg-blue-400;
+}
+
+.c-banner__content {
+  @apply z-10 relative my-auto text-white pt-24;
+
+  width: 463px;
+}
+
+.c-banner__content--title {
+  @apply  mb-2 font-bold;
+
+  font-size: 32px;
+  line-height: 56px;
+}
+
+.c-banner__content--desc {
+  font-size: 18px;
+}
+
+.c-banner__image {
+  @apply absolute right-0 z-0;
+}
