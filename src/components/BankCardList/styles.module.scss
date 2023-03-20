@@ -1,0 +1,9 @@
+.c-bank-card {
+  @apply grid md:grid-cols-3 md:gap-6 grid-cols-1 gap-2;
+
+  &__item {
+    @apply rounded-xl;
+
+    border: 1px solid #E7E8EB;
+  }
+}

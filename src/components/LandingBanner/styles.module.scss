@@ -5,7 +5,7 @@
 .c-banner__content {
   @apply z-10 relative my-auto text-white pt-24;
 
-  width: 463px;
+  max-width: 463px;
 }
 
 .c-banner__content--title {
@@ -20,5 +20,7 @@
 }
 
 .c-banner__image {
-  @apply absolute right-0 z-0;
+  @apply absolute right-0 z-0 bottom-0;
+
+  height: inherit;
 }

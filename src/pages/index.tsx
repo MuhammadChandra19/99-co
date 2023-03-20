@@ -1,3 +1,4 @@
+import LandingBanks from '@/components/LandingBanks'
 import LandingBaner from '@/components/LandingBanner'
 import LandingRequisite from '@/components/LandingRequisite'
 import Head from 'next/head'
@@ -14,6 +15,7 @@ export default function Home() {
       <main>
         <LandingBaner />
         <LandingRequisite />
+        <LandingBanks />
       </main>
     </>
   )

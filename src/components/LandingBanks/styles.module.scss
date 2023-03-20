@@ -1,0 +1,21 @@
+
+.c-banks {
+  @apply py-6;
+
+  &__title {
+    @apply mb-2;
+
+    font-size: 32px;
+    line-height: 56px;
+  }
+
+  &__desc {
+    @apply mb-6;
+    
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  &__content {
+  }
+}

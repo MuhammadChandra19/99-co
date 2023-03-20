@@ -39,17 +39,19 @@ const LandingRequisite = () => {
       <div className={styles['c-requisite__desc']}>
         <p>Banyak kebutuhan yang bisa dipenuhi hanya dengan menjaminkan properti kamu </p>
       </div>
-      <div className={styles['c-requisite__content']}>
-        {
-          loadContents().map((item, idx) => (
-            <div key={`${item.text}-${idx}`} className={styles['c-requisite__content--item']}>
-              <img src={item.image} alt={item.text} className="rounded-b-lg rounded-t-lg"/>
-              <div className={styles['c-requisite__content--item__text']}>
-                { item.text }
+      <div className='relative overflow-x-scroll'>
+        <div className={styles['c-requisite__content']}>
+          {
+            loadContents().map((item, idx) => (
+              <div key={`${item.text}-${idx}`} className={styles['c-requisite__content--item']}>
+                <img src={item.image} alt={item.text} className="rounded-b-lg rounded-t-lg"/>
+                <div className={styles['c-requisite__content--item__text']}>
+                  { item.text }
+                </div>
               </div>
-            </div>
-          ))
-        }
+            ))
+          }
+      </div>
       </div>
     </div>
   )
